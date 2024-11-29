@@ -29,6 +29,7 @@ const KanbanBoard = ({ tickets, users, grouping, ordering }) => {
         if (status === "Cancelled") status = [status, cancel];
         if (status === "Done") status = [status, done];
         newArr.push(status);
+        return newArr;
       });
       console.log(newArr);
 
