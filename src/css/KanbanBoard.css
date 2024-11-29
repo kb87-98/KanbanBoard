@@ -1,0 +1,35 @@
+.kanban-board {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.kanban-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.kanban-column {
+  flex: 1;
+  /* background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px; */
+  padding: 8px;
+}
+
+.column-header {
+  text-align: left;
+  font-weight: bold;
+  padding: 8px;
+  /* background-color: #eee; */
+  /* border-bottom: 1px solid #ccc; */
+  /* border-radius: 8px 8px 0 0; */
+}
+
+.column-tickets {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+}
